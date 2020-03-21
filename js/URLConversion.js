@@ -8,10 +8,10 @@ function URLConversion() {
   var b = a.replace("?dl=0", "");
 
   document.getElementById("inputURL").value = b;
-   
+   alert(b);
 // 文字をすべて選択
 b.select();
 // コピー
-document.execCommand("copy");
+//document.execCommand("copy");
    alert('クリップボードにコピーしました。');
 }
