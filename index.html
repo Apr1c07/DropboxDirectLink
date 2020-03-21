@@ -17,6 +17,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
   <link rel="apple-touch-icon" href="https://apr1c07.github.io/img/favicon.ico">
+  <!-- jsの読み込み　-->
+  <script src="https://apr1c07.github.io/DropboxDirectLink/js/URLConversion.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139886221-1"></script>
   <script>
@@ -78,10 +80,12 @@
         <div class=text" style="text-align:left">
           <p>Dropboxのリンクを貼り付け、変換を押すと直リンクを生成します。</p>
           <br>
-
-          <div class="text font-weight-bold" style="font-size: 1.25rem">◯ ご依頼可能なキーボード</div>
-          ご依頼時に仕入れ可能な、国内流通品のみとさせていただきます。
-          <br><br>
+          <div class="input-group">
+            <input type="text" class="form-control">
+            <span class="input-group-btn">
+              <button class="btn btn-primary" type="button" onclick="URLConversion()">変換</button>
+            </span>
+          </div>
         </div>
       </div>
     </div>
