@@ -8,4 +8,5 @@ function URLConversion() {
   var b = a.replace("?dl=0", "");
 
   document.getElementById("inputURL").value = b;
+   document.getElementById("inputURL").value = "aaaaaaaaaaaaa";
 }
