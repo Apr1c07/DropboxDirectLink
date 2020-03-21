@@ -9,5 +9,5 @@ function URLCopy(){
   var InputURL = document.getElementById('inputURL');
    InputURL.select();
    document.execCommand("Copy");
-    alert('クリップボードにコピーしましたyo。');
+    alert('クリップボードにコピーしました。');
 }
