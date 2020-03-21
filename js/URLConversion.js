@@ -6,7 +6,7 @@ function URLConversion() {
 }
 
 function URLCopy(){
-  var InputURL = document.getElementById('inputURL').value;
+  var InputURL = document.getElementById('inputURL');
    InputURL.select();
    document.execCommand("Copy");
     alert('クリップボードにコピーしました。');
